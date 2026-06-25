@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lasagne Maestro | Luxusné talianske bistro</title>
+  <meta name="description" content="Lasagne Maestro – talianske lasagne, víno, dezerty a elegantná atmosféra v Bratislave. Rezervujte si stôl cez WhatsApp." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grain"></div>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="#top" aria-label="Lasagne Maestro domov">
+      <img src="assets/logo-lasagne-maestro.png" alt="Lasagne Maestro logo">
+      <span>Lasagne Maestro</span>
+    </a>
+
+    <button class="menu-button" type="button" data-nav-toggle aria-expanded="false" aria-label="Otvoriť menu">
+      <span></span><span></span>
+    </button>
+
+    <nav class="main-nav" data-nav>
+      <a href="#salon">Salón</a>
+      <a href="#lasagne">Lasagne</a>
+      <a href="#galeria">Galéria</a>
+      <a href="#team">Tím</a>
+      <a href="#rezervacia">Rezervácia</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Italian bistro · lasagne house · wine evening</p>
+        <h1>Lasagne ako večerný rituál.</h1>
+        <p class="hero-text">Elegantné bistro pre hostí, ktorí nehľadajú rýchly obed, ale teplé svetlo, dobré víno a lasagne pripravené s pokojom talianskej kuchyne.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#rezervacia">Rezervovať stôl</a>
+          <a class="btn btn-ghost" href="#lasagne">Objaviť chute</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="Atmosféra podniku Lasagne Maestro">
+        <div class="oval-frame">
+          <img src="assets/exterier-terasa.png" alt="Luxusná terasa Lasagne Maestro">
+        </div>
+        <div class="hero-card">
+          <span>Dnes odporúčame</span>
+          <strong>Lasagne Maestro Signature</strong>
+          <small>ragú · bešamel · parmezán · bazalka</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro-band reveal" id="salon">
+      <div>
+        <span class="section-kicker">Palazzo atmosféra</span>
+        <h2>Nie obyčajná reštaurácia. Malý taliansky salón pre lasagne.</h2>
+      </div>
+      <p>Nový vizuál stránky je postavený na svetlom luxuse: mramorová krémová, nočná modrá, šampanské zlato a jemná terakota. Cieľ je, aby už prvý pohľad hovoril: tu sa podávajú lasagne, víno a zážitok.</p>
+    </section>
+
+    <section class="signature-grid">
+      <article class="signature-photo reveal">
+        <img src="assets/interier-bistro.png" alt="Interiér Lasagne Maestro so stolmi a sviečkami">
+      </article>
+      <article class="signature-panel reveal">
+        <span class="section-kicker">La casa delle lasagne</span>
+        <h2>Vrstvy, ktoré majú čas.</h2>
+        <p>Lasagne Maestro stojí na detailoch: pomaly pripravené ragú, jemný bešamel, vôňa parmezánu a servis, ktorý necháva večeru plynúť bez zhonu.</p>
+        <ul class="lux-list">
+          <li><span>01</span> domáce receptúry inšpirované Talianskom</li>
+          <li><span>02</span> párovanie s vínom a večernou atmosférou</li>
+          <li><span>03</span> terasa pre letné večery a romantické rezervácie</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="lasagne-section" id="lasagne">
+      <div class="section-head reveal">
+        <span class="section-kicker">Menu signature</span>
+        <h2>Hlavná hviezda je vždy lasagne.</h2>
+        <p>Krátka a jasná ponuka, ktorá nevyzerá ako obyčajné obedové menu. Každá karta môže neskôr viesť na detail, cenu alebo dennú špecialitu.</p>
+      </div>
+
+      <div class="menu-cards">
+        <article class="dish-card reveal">
+          <div class="dish-number">I</div>
+          <h3>Maestro Classico</h3>
+          <p>Tradičné ragú, bešamel, paradajky, parmezán a bazalka. Chuť, kvôli ktorej sa hostia vracajú.</p>
+          <span>signature</span>
+        </article>
+        <article class="dish-card reveal featured">
+          <div class="dish-number">II</div>
+          <h3>Porcini e Crema</h3>
+          <p>Huby porcini, krémová omáčka, bylinky a výrazný syr. Jemnejšie, elegantné, večerné.</p>
+          <span>chef choice</span>
+        </article>
+        <article class="dish-card reveal">
+          <div class="dish-number">III</div>
+          <h3>Formaggi Dorati</h3>
+          <p>Výber syrov, zlatistá kôrka a hladká textúra. Pre hostí, ktorí milujú sýtu taliansku klasiku.</p>
+          <span>creamy</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="mood-section">
+      <div class="mood-copy reveal">
+        <span class="section-kicker">Večer v bistre</span>
+        <h2>Svetlo sviečok, pohár vína a vôňa zapekaných lasagní.</h2>
+        <p>Stránka je navrhnutá tak, aby sa dala rozširovať: sezónne menu, fotky jedál, novinky z terasy, darčekové poukazy alebo samostatná stránka s denným menu.</p>
+      </div>
+      <div class="mood-photo reveal">
+        <img src="assets/interier-atmosfera.png" alt="Elegantná atmosféra interiéru Lasagne Maestro">
+      </div>
+    </section>
+
+    <section class="gallery-section" id="galeria">
+      <div class="section-head reveal">
+        <span class="section-kicker">Fotogaléria</span>
+        <h2>Podnik, terasa, jedlá, detaily.</h2>
+      </div>
+      <div class="gallery-grid">
+        <figure class="reveal wide"><img src="assets/exterier-terasa.png" alt="Exteriér a terasa Lasagne Maestro"><figcaption>Terasa pri večernom svetle</figcaption></figure>
+        <figure class="reveal"><img src="assets/interier-atmosfera.png" alt="Interiér reštaurácie"><figcaption>Interiér so sviečkami</figcaption></figure>
+        <figure class="reveal"><img src="assets/interier-bistro.png" alt="Bistro Lasagne Maestro"><figcaption>Salón Lasagne Maestro</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="team-section" id="team">
+      <div class="team-title reveal">
+        <span class="section-kicker">Il team</span>
+        <h2>Ľudia, ktorí tvoria Maestro.</h2>
+      </div>
+      <div class="team-cards">
+        <article class="team-card reveal">
+          <span>Kuchyňa</span>
+          <h3>Majstri vrstiev</h3>
+          <p>Pripravujú ragú, bešamel a zapekané lasagne tak, aby každá porcia držala charakter podniku.</p>
+        </article>
+        <article class="team-card reveal">
+          <span>Servis</span>
+          <h3>Hostitelia večera</h3>
+          <p>Vítajú hostí, odporúčajú víno a starajú sa o to, aby návšteva pôsobila osobne, nie anonymne.</p>
+        </article>
+        <article class="team-card reveal">
+          <span>Maestro</span>
+          <h3>Duša konceptu</h3>
+          <p>Drží atmosféru, výber chutí a detail, vďaka ktorému je z obyčajnej večere malý taliansky zážitok.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="reservation-section" id="rezervacia">
+      <div class="reservation-copy reveal">
+        <span class="section-kicker">Rezervácia</span>
+        <h2>Napíšte nám rezerváciu priamo cez WhatsApp.</h2>
+        <p>Formulár pripraví správu so všetkými údajmi. Hosť ju už len odošle cez WhatsApp a tím Lasagne Maestro ju potvrdí.</p>
+      </div>
+
+      <form class="reservation-form reveal" data-reservation-form>
+        <label>
+          Meno
+          <input type="text" name="name" placeholder="Vaše meno" required>
+        </label>
+        <label>
+          Dátum
+          <input type="date" name="date" required>
+        </label>
+        <label>
+          Čas
+          <input type="time" name="time" required>
+        </label>
+        <label>
+          Počet osôb
+          <select name="people" required>
+            <option value="2 osoby">2 osoby</option>
+            <option value="3 osoby">3 osoby</option>
+            <option value="4 osoby">4 osoby</option>
+            <option value="5 osôb">5 osôb</option>
+            <option value="6 a viac osôb">6 a viac osôb</option>
+          </select>
+        </label>
+        <label class="full">
+          Preferencia
+          <select name="place">
+            <option value="Interiér">Interiér</option>
+            <option value="Terasa">Terasa</option>
+            <option value="Romantický stôl">Romantický stôl</option>
+            <option value="Bez preferencie">Bez preferencie</option>
+          </select>
+        </label>
+        <label class="full">
+          Poznámka
+          <textarea name="note" rows="4" placeholder="Alergie, kočík, oslava, špeciálna požiadavka..."></textarea>
+        </label>
+        <button class="btn btn-primary full" type="submit">Odoslať cez WhatsApp</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <img src="assets/logo-lasagne-maestro.png" alt="Lasagne Maestro logo">
+      <p>Lasagne Maestro · talianske bistro s atmosférou</p>
+    </div>
+    <div>
+      <p>Heyduková 12, Bratislava</p>
+      <p>Instagram · Facebook · WhatsApp</p>
+    </div>
+    <small>© <span data-year></span> Lasagne Maestro. Web concept.</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
